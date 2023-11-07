@@ -1,15 +1,19 @@
-import "./App.css";
-import navbar from "./components/navbar";
-import main from "./components/main";
-import footer from "./components/footer";
-function App(){
-return(
-  <div>
-    <navbar/>
-    <main/>
-    <footer/>
-  </div>
+import React from "react";
+import Header from "./components/navbar";
+import Main from "./components/main";
+import Footer from "./components/footer";
 
-);
+import "./App.css"; 
+
+function App() {
+  return (
+    <div className="app">
+      <Header />
+    <h1></h1>  
+      <Main />
+      <Footer />
+    </div>
+  );
 }
+
 export default App;

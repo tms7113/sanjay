@@ -1,12 +1,16 @@
- import React from "react";
-const navbar=()=>
-{
-    return(
-        <div>
-            <hr></hr>
-            <h1>Your Name</h1>
-            <hr></hr>
-        </div>
-    );
-};
-export default navbar;
+import React from "react";
+
+function Header() {
+  const headerStyles = {
+    color: "blue", 
+    textAlign: "center",
+  };
+
+  return (
+    <div className="header">
+      <h1 style={headerStyles}>FORM</h1>
+    </div>
+  );
+}
+
+export default Header;

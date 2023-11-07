@@ -1,13 +1,17 @@
- import React from "react";
-const footer = () => {
+import React from "react";
+
+function Footer() {
+  const currentYear = new Date().getFullYear();
+
+  const footerStyles = {
+    color: "red",
+  };
+
   return (
-    <div>
-      <hr></hr>
-      <pre>
-        <h2>123@gmail.com</h2>
-      </pre>
-      <hr></hr>
+    <div className="footer" style={footerStyles}>
+      <p>&copy; {currentYear}</p>
     </div>
   );
-};
-export default footer;
+}
+
+export default Footer;
