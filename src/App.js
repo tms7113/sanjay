@@ -1,19 +1,12 @@
-import React from "react";
-import Header from "./components/navbar";
-import Main from "./components/main";
-import Footer from "./components/footer";
+import Hello from "./day2/Hello";
 
-import "./App.css"; 
-
-function App() {
+function  App () {
   return (
-    <div className="app">
-      <Header />
-    <h1></h1>  
-      <Main />
-      <Footer />
-    </div>
-  );
+    <div>  
+      <Hello></Hello>  
+      
+       </div>
+  )
 }
 
-export default App;
+export default  App;  
