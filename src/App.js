@@ -1,9 +1,10 @@
-import Hello from "./day2/Hello";
+
+import Message from "./day3/Message";
 
 function  App () {
   return (
     <div>  
-      <Hello></Hello>  
+      <Message></Message>
       
        </div>
   )
